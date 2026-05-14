@@ -1,0 +1,33 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "app-svc",
+	"upload_source_maps": true,
+	"workers_dev": true,
+	"compatibility_flags": [
+		"nodejs_als",
+		// "nodejs_compat"
+	],
+	"version_metadata": {
+		"binding": "CF_VERSION_METADATA",
+	},
+	"observability": {
+		"enabled": true,
+	},
+	"vars": {
+		"ENVIRONMENT": "development",
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "app-dev",
+			"database_id": "fdf7e892-e0fb-4315-adcc-91999d1f99a2",
+		},
+	],
+	"kv_namespaces": [
+		{
+			"binding": "KV",
+			"id": "f7f3593c42b84be9b808554566b4c198",
+		},
+	],
+}
