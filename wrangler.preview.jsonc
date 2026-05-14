@@ -10,14 +10,14 @@
 	"d1_databases": [
 		{
 			"binding": "DB",
-			"database_name": "backend-template-preview",
-			"database_id": "f32ac4a8-38e0-4cdb-afba-908d999afae4",
+			"database_name": "app-preview",
+			"database_id": "3ecf5d12-c16c-4461-bbdf-260e8b06b87d",
 		},
 	],
 	"kv_namespaces": [
 		{
 			"binding": "KV",
-			"id": "b13d5908c4634af18b44c54936fe464b",
+			"id": "3bae14b20c0d4afe80d75eb13f528573",
 		},
 	],
 }
